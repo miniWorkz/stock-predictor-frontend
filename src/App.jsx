@@ -6,12 +6,12 @@ import Watchlist from "./components/watchlist-section/watchlist.jsx";
 function App() {
 
   return (
-    <body className={"flex flex-col"}>
+    <div className={"flex flex-col"}>
         <Header></Header>
         <main>
             <Watchlist></Watchlist>
         </main>
-    </body>
+    </div>
 
 
   )
