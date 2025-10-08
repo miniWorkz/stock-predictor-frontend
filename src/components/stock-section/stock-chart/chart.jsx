@@ -39,7 +39,7 @@ const StockChart = ({ticker}) => {
     if (!chartData) return <p>Loading Chart...</p>;
 
     return (
-        <div style={{ width: "600px", height: "400px" }}>
+        <div style={{ width: "800px", height: "700px" }}>
             <Line data={chartData} />
         </div>
     )

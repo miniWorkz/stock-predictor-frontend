@@ -11,7 +11,7 @@ function App() {
         <Header></Header>
         <main className="flex flex-row">
             <Watchlist></Watchlist>
-            <StockChart ticker={"AMZN"}></StockChart>
+            <StockChart ticker={"AAPL"}></StockChart>
         </main>
     </div>
 

@@ -3,7 +3,7 @@ import Card from "./watchlist-card/card.jsx"
 
 function Watchlist(){
     return(
-        <section className={"border-r-2 h-[94.5vh] flex flex-col"}>
+        <section className={"border-r-2 h-[95vh] flex flex-col"}>
             <Card name={"Apple"} symbol={"APPL"} price={182.93}></Card>
             <Card name={"Meta"} symbol={"META"} price={38.27}></Card>
             <Card name={"JPMorgan"} symbol={"JPMG"} price={145.66}></Card>
