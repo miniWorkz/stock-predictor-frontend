@@ -11,7 +11,7 @@ function App() {
         <Header></Header>
         <main className="flex flex-row">
             <Watchlist></Watchlist>
-            <StockChart ticker={"AAPL"}></StockChart>
+            <StockChart ticker={"AAPL"} period={"1d"}></StockChart>
         </main>
     </div>
 
